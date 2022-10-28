@@ -1,4 +1,4 @@
-# GroupBy
+# Blog
 
 To start your Phoenix server:
 
