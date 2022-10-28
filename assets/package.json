@@ -1,0 +1,19 @@
+{
+  "name": "group_by-project",
+  "description": "My group_by project",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "node esbuild.js",
+    "deploy": "node esbuild.js --deploy",
+    "watch": "node esbuild.js --watch"
+  },
+  "dependencies": {
+    "phoenix": "../deps/phoenix",
+    "phoenix_html": "../deps/phoenix_html",
+    "phoenix_live_view": "../deps/phoenix_live_view"
+  },
+  "devDependencies": {
+    "esbuild": "^0.15.12"
+  }
+}
